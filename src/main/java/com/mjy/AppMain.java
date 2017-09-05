@@ -12,6 +12,7 @@ public class AppMain {
 		 ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		 TaskService ts = context.getBean(TaskService.class);
 		 ts.search();
+		 
 	}
 
 }
